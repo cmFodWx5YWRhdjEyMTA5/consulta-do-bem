@@ -1,0 +1,28 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="74.875" height="21" viewBox="0 0 74.875 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #10a64a;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        text-anchor: middle;
+        font-family: FontAwesome;
+        text-transform: uppercase;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 14.437px;
+        font-family: Montserrat;
+      }
+    </style>
+  </defs>
+  <rect id="BG" class="cls-1" width="74.875" height="21" rx="3" ry="3"/>
+  <text id="_" data-name="" class="cls-2" transform="translate(14.829 14.99) scale(0.737 0.762)"></text>
+  <text id="Verified" class="cls-3" transform="translate(22.787 15.191) scale(0.737 0.762)">Verified</text>
+</svg>

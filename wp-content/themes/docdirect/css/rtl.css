@@ -1,0 +1,535 @@
+/*
+Theme Name: Doctor Directory
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.rtl .logo,
+.rtl .tg-nav ul li,
+.rtl .tg-buynowbox h3,
+.rtl .sc-dir-types .specialities-list ul li,
+.rtl .catagories-types .tg-packages a label i,
+.rtl .tg-healthcareonthego .tg-btns .tg-btn,
+.rtl .tg-healthcareonthego ul li,
+.rtl .tg-findbycategory ul li,
+.rtl .tg-footercol .tg-info i,
+.rtl .tg-footercol li em,
+.rtl .tg-breadcrumb li,
+.rtl .tg-pagebar h1,
+.rtl .tg-login-logout li ul li i,
+.rtl .tg-list-view .tg-box figure,
+.rtl .tg-doccontactinfo li i,
+.rtl .tg-doccontactinfo li a,
+.rtl .tg-doccontactinfo li span,
+.rtl .tg-doccontactinfo li address,
+.rtl .tg-blog-list .tg-post .tg-feature-img,
+.rtl .tg-map-marker .tg-docimg,
+.rtl .tg-mapmarker-content .tg-info li i,
+.rtl .tg-mapmarker-content .tg-info li em,
+.rtl .tg-mapmarker-content .tg-info li em a,
+.rtl .tg-findbycategory .tg-heading-border i,
+.rtl .tg-patient-message .tg-patient-name,
+.rtl .tg-patient-message .tg-stars.star-rating,
+.rtl .sc-dir-search.v1 .form-searchdoctors .tg-verticalmiddle,
+.rtl .system-gateway label input,
+.rtl .tg-tabs-nav li label i,
+.rtl .tg-docprofilechart .tg-findheatlhwidth,
+.rtl .tg-docrank  > div[class*="col-"],
+.rtl .tg-docrank  > div[class^="col-"],
+.rtl .form-docschedule fieldset > div,
+.rtl .form-docschedule fieldset > div,
+.rtl .form-docschedule .form-group label,
+.rtl .tg-editprofile .tg-findheatlhwidth,
+.rtl .tg-editimg figure,
+.rtl .tg-formsection > div > div[class*="col-"],
+.rtl .tg-formsection > div > div[class^="col-"],
+.rtl .chosen-container-multi .chosen-choices li,
+.rtl .tg-threecolumn div[class*="col-"]:first-child,
+.rtl  .tg-threecolumn div[class*="col-"]:nth-child(2),
+.rtl #comments .comment-head > div,
+.rtl .tg-reviewscrol .tg-reviews li .tg-reviwer-img,
+.rtl .tg-reviewcontet .comment-head > div,
+.rtl .specialities-list ul li,
+.rtl .tg-patientfeedback .tg-patient-pic,
+.rtl .tg-docavailability input[type="checkbox"],
+.rtl .tg-listing-head .tg-titlebox,
+.rtl .tg-lists.tg-favorites .tg-listbox,
+.rtl .form-group.tg-checkbox label,
+.rtl form fieldset .form-group.tg-checkbox input.form-control[type='checkbox'],
+.rtl .doc-contactweb,
+.rtl .doc-logo,
+.rtl .doc-nav,
+.rtl .doc-nav ul li,
+.rtl .owl-carousel .owl-item{float:right !important;}
+.rtl .doc-menu,
+.rtl .tg-buynowbox .tg-btn,
+.rtl .sc-dir-types span.count,
+.rtl .tg-breadcrumb,
+.rtl .tg-patient-message .tg-doctor-name,
+.rtl .tg-docprofilechart .tg-expectwidth,
+.rtl .form-docschedule fieldset > div > div:last-child,
+.rtl #comments .comment-head .tg-stars,
+.rtl #comments .comment-head .tg-btn,
+.rtl .tg-docavailability span,
+.rtl .tg-forgot-password,
+.rtl .doc-languages,
+.rtl .doc-navigationarea,
+.rtl .doc-admin{float:left !important;}
+.rtl textarea,
+.rtl input[type="text"],
+.rtl input[type="password"],
+.rtl input[type="datetime"],
+.rtl input[type="datetime-local"],
+.rtl input[type="date"],
+.rtl input[type="month"],
+.rtl input[type="time"],
+.rtl input[type="week"],
+.rtl input[type="number"],
+.rtl input[type="email"],
+.rtl input[type="url"],
+.rtl input[type="search"],
+.rtl input[type="tel"],
+.rtl input[type="color"],
+.rtl .uneditable-input,
+.rtl .specialities-list ul li .user-selection .tg-packages label,
+.rtl .tg-heading-border,
+.rtl .tg-description,
+.rtl .tg-healthcareonthego ul li,
+.rtl .tg-findbycategory ul li,
+.rtl .tg-footercol .tg-widget ul li,
+.rtl .tg-nav ul li ul li,
+.rtl .tg-login-logout li ul li,
+.rtl select,
+.rtl .form-control,
+.rtl .theme-notification.alert,
+.rtl .tg-doccontactinfo li,
+.rtl .tg-doccontactinfo li i,
+.rtl .tg-metadata li,
+.rtl .tg-widget > h3,
+.rtl .tg-widget > ul > li,
+.rtl .comment-box span,
+.rtl .select,
+.rtl .select select,
+.rtl option,
+.rtl .select .directory_type,
+.rtl .tg-mapmarker-content .tg-info li i,
+.rtl .tg-mapmarker-content .tg-info li address,
+.rtl .tg-patient-message .tg-patient-name,
+.rtl .tg-patient-message .tg-stars.star-rating,
+.rtl .tg-dashboard-invoice tr th,
+.rtl .gateways-settings .membership-price-header,
+.rtl .system-gateway,
+.rtl .tg-tabs-nav li label,
+.rtl .tg-category span,
+.rtl .form-searchdoctors h1,
+.rtl .tg-support .tg-doccontactinfo li address,
+.rtl .tg-uploadtips,
+.rtl .chosen-single,
+.rtl .tg-reviewcontet,
+.rtl thead,
+.rtl tr,
+.rtl th,
+.rtl td,
+.rtl .chosen-container-single .chosen-drop,
+.rtl .form-comment .form-group,
+.rtl .tg-docschedule p,
+.rtl .tg-listing-head .tg-titlebox{text-align:right !important;}
+.rtl .tg-patient-message .tg-doctor-name,
+.rtl .tg-inner-header .tg-navigationarea{text-align:left;}
+.rtl .tg-heading-border:after,
+.rtl .tg-findbycategory ul li:after,
+.rtl .tg-nav ul li ul,
+.rtl .tg-nav ul li ul li:after,
+.rtl .tg-doctor-detail2 .tg-findbycategory ul li:after,
+.rtl .tg-doceducation .tg-findbycategory ul li a:after,
+.rtl .tg-featuredicon,
+.rtl .tg-tabs-nav li label:before,
+.rtl .tg-tabs-nav li label:after,
+.rtl .tg-category-name:after,
+.rtl .tg-deleteaccount .tg-heading-border.tg-small h2:after,
+.rtl  .tg-table-hover {
+	right:0;
+	left:auto;
+}
+.rtl .select:after,
+.rtl .chosen-container-multi .chosen-choices:after,
+.rtl .locate-me-wrap .geodistance{
+	right:auto;
+	left:15px;
+}
+.rtl .tg-box .tg-show,
+.rtl .docdirect-menu li:after,
+.rtl .tg-tabs-nav:after,
+.rtl .tg-login-logout li ul,
+.rtl .tg-table-hover .tg-delete,
+.rtl .tg-table-hover .tg-edit,
+.rtl .tg-widget.tg-widget-accordions .panel .tg-panel-heading:after,
+.rtl .docdirect-menu li:after{
+	right:auto !important;
+	left:0;
+}
+.rtl .tg-widget.tg-widget-accordions .panel .tg-panel-heading:after{top:0;}
+.rtl .tg-metadata{
+	width:auto;
+	right:3%;
+	left:auto;
+}
+.rtl .tg-breadcrumb li:after{
+	content:'\f104';
+	right:-3px;
+}
+.rtl .locate-me-wrap .geodistance,
+.rtl .locate-me-wrap .geodistance{left:8px;}
+.rtl .locate-me-wrap .geolocate{
+	z-index:5;
+	left:29px;
+}
+.rtl .geodistance_range:after,
+.rtl .tg-doctor-profile .tg-box em{
+	right:auto;
+	left:15px;
+}
+.rtl input#location-address{padding-right:18px !important;}
+.rtl .tg-breadcrumb li:first-child{padding-right:0;}
+.rtl .tg-breadcrumb li:last-child{padding:0 15px 0 0;}
+.rtl input#location-address{padding-left:50px !important;}
+.rtl .tg-lists.tg-favorites .tg-listbox{direction:rtl;}
+.rtl .tg-listbox .tg-btn-list + .tg-btn-list{margin:0 10px 0 0;}
+.rtl .tg-nav #tg-navigation > ul > li:last-child{padding-right:20px;}
+.rtl .tg-nav #tg-navigation > ul > li:last-child,
+.rtl .tg-healthcareonthego ul li{padding-left:0;}
+.rtl .tg-healthcareonthego ul li{padding-right:60px;}
+.rtl .tg-healthcareonthego ul li:after{right:15px;}
+.tg-nav #tg-navigation > ul > li:last-child:after{display:block;}
+.rtl .tg-nav #tg-navigation > ul > li:first-child:after{display:none;}
+.rtl .tg-login-logout li ul li i{margin:2px 0 0 10px;}
+.rtl .tg-tabs-nav li label i{padding:0 0 0 15px;}
+.rtl .tg-box .tg-show{transform:rotate(90deg);}
+.rtl .tg-box .tg-show em{bottom:13px;}
+.rtl form fieldset .form-group.tg-checkbox input.form-control[type='checkbox']{margin:4px 0 0 15px;}
+.rtl .tg-dashboard-invoice tbody tr td i{padding:0 0 0 5px;}
+.rtl .tg-listbox figure,
+.rtl .tg-editimg figure{margin:0 0 0 15px;}
+.rtl .tg-patientfeedback .tg-patient-pic,
+.rtl .tg-list-view .tg-box figure{margin:0 0 0 30px;}
+.rtl .tg-radiobox input[type=radio] + label:before,
+.rtl .tg-packageswidth .tg-checkbox input[type=checkbox] + label:before,
+.rtl .tg-packageswidth .tg-checkbox input[type=radio] + label:before{
+	left:9px;
+	right:auto;
+}
+.rtl .tg-featuredicon{transform:rotate(90deg);}
+.rtl .tg-featuredicon em{transform:rotate(-90deg);}
+.rtl .tg-findbycategory .tg-heading-border i{padding:0 0 0 5px;}
+.rtl .tg-education-detail tbody tr td{padding:15px 32px;}
+.rtl .tg-findbycategory ul li{padding:0 10px 0 0;}
+.rtl .tg-doctor-detail2 .tg-findbycategory ul li{padding:0 20px 0 0;}
+.rtl .tg-findbycategory ul li:after,
+.rtl .tg-footercol .widget_nav_menu.tg-widget ul li:after{content:'\f0d9';}
+.rtl .tg-doctor-detail2 .tg-findbycategory ul li:hover{padding:0 30px 0 0;}
+.rtl .tg-findbycategory ul li:hover{padding:0 20px 0 0;}
+.rtl .tg-findbycategory ul li:hover:after,
+.rtl .tg-footercol .widget_nav_menu.tg-widget ul li:hover:after{right:10px;}
+.rtl .catagories-types .tg-packages a label i{
+	padding-left:15px;
+	padding-right:0;
+}
+.rtl .tg-deleteaccount .tg-heading-border.tg-small h2{
+	padding-left:0;
+	padding-right:20px;
+}
+.rtl .tg-doceducation .tg-findbycategory ul:after{
+	right:7px;
+	left:auto;
+}
+.rtl .tg-post-detail .tg-post .tg-tags{
+	left:3%;
+	right: auto;
+}
+.rtl .tg-post-detail .tg-post .tg-tags .tg-tag li + li:after{top:30%;}
+.rtl .tg-author-img{
+	float:right;
+	margin:0 0 0 30px;
+}
+
+.rtl .form-docschedule i {
+	left: 10%;
+	top: 28%;
+	right:auto;
+}
+.rtl .tg-docavailability input[type="checkbox"],
+.rtl .tg-support .tg-doccontactinfo li i{margin:0 0 0 5px;}
+.rtl .system-gateway label input{margin:4px 0 0 5px;}
+.rtl .tg-reviewscrol .tg-reviews li .tg-reviwer-img,
+.rtl .tg-map-marker .tg-docimg{margin:0 0 0 15px;}
+.rtl .tg-footercol .tg-widget ul li{padding:10px 15px 10px 0;}
+.rtl .tg-footercol .widget_nav_menu.tg-widget ul li:after{right:0;}
+.rtl .tg-footercol .tg-widget ul li:hover{padding-right:25px;}
+.rtl .tg-footercol .tg-widget ul li a{
+	z-index:5;
+	position:relative;
+}
+.rtl .tg-footercol .tg-info i{margin:0 0 0 12px;}
+.rtl  select, 
+.rtl .group.subcats option,
+.rtl  table{direction:rtl !important;}
+.rtl  .tg-homebanner .tab-content{padding:90px 3px 0 0;}
+.rtl .locate-me-wrap .geolocate{right:auto;}
+.rtl  .tg-findbycategory ul li a{
+	position:relative;
+	z-index:3;
+}
+.rtl .tg-login-logout > li > a{
+	margin:0;
+	padding-left:0;
+	padding-right:15px;
+}
+.rtl .tg-login-logout > li > a:after{
+	right:0;
+	left:auto;
+}
+.tg-schedule-widget-v2 ul li a{text-align:right;}
+.tg-widget.tg-datatype-two ul li a:after, 
+.tg-widget.tg-datatype ul li a:after{right:auto; left:10px;}
+.tg-schedule-widget-v2 ul li:hover a, 
+.tg-schedule-widget-v2 ul li.current a{padding-left:0; padding-right:12px;}
+.tg-schedule-widget-v2 ul li a:before{content:'\f0d9'; left:auto; right:0;}
+.rtl .tg-socialicon li{margin: 0 5px;}
+.rtl .tg-socialicon li:first-child{ margin-right: 0;}
+.rtl .doc-select:after{ left: 15px !important; right: auto !important;}
+.rtl .chosen-container-single .chosen-single{padding: 0px 15px 0px 0 !important;}
+.rtl .chosen-container .chosen-drop{right: -9999px;}
+.rtl .chosen-container.chosen-with-drop .chosen-drop{ right:0;}
+.rtl .pin{ margin: -16px 0 0 -33px !important;}
+.rtl .pin:after{ margin: 8px 8px 0px 0px !important;}
+.rtl .doc-admin {padding:25px 10px 25px 0;}
+.rtl .doc-dropdown .doc-dropdownbox.doc-usermenu {
+	left: 0;
+	right: auto;
+	text-align:right
+}
+.rtl .doc-bannersearcharea fieldset:first-child {padding: 0 0 0 50px;}
+.rtl .doc-btnformsearch{
+	left:0;
+	right:auto;
+}
+.rtl .doc-fieldsetholder .form-control{
+	border-right: 0;
+	border-left: 1px solid #ddd;
+}
+.rtl .doc-radio label,
+.rtl .doc-checkbox label{
+	padding: 0 20px 0 0;
+	text-align:right;
+}
+.rtl .doc-checkbox input[type=checkbox] + label:before{
+	left: auto;
+	right: 0;
+}
+.rtl .doc-btnarea{text-align:left;}
+.rtl .doc-section-heading{text-align:right;}
+.rtl .doc-section-heading span {padding: 0 0 0 20px;}
+.doc-section-heading span:before {
+	left:auto;
+	right: 100%;
+}
+.rtl .doc-categoryname {
+	left: auto;
+	right: 20px;
+}
+.rtl .doc-categorycount {
+	right: auto;
+	left: 20px;
+}
+.rtl .doc-categorycount a i {margin: 0 5px 0 0;}
+.rtl .doc-rightarea {float: left;}
+.rtl .doc-leftarea {float: right;}
+.rtl .doc-listview .doc-featurelist .doc-featureimg {
+	float:right;
+	margin: 0 0 0 15px;
+}
+.rtl .doc-favoriteicon{
+	right:auto;
+	left:0;
+}
+.rtl .doc-addressinfo li i {margin: 0 0 0 10px;}
+.rtl .doc-featurehead h2 {padding: 0 0 0 50px;}
+.rtl .doc-matadata {
+	width: auto;
+	float: right;
+}
+.rtl .doc-matadata li:last-child{padding-right:0;}
+.rtl .doc-featuredicon i {margin: 0 0 0 5px;}
+.rtl .doc-btnsubscribe {
+	left:4px;
+	right: auto;
+}
+.rtl .doc-fcol .tg-heading-border.tg-small h4 {width:100%;}
+.rtl .doc-fcol .doc-widgetcontent ul li figure {
+	float: right;
+	margin: 0 0 0 10px ;
+}
+.doc-fcol .tg-widget.address-column ul li i {
+	float: right;
+	margin: 0 0 0 12px;
+}
+.rtl .doc-footernav ul li{float:right;}
+.rtl .doc-fcol .tg-widget.doc-widgetdoctorlisting ul li.doc-btnviewall a{float:right;}
+.rtl .doc-featuredicon{
+	left:auto;
+	right:0;
+	border-radius: 0 0 4px 0;
+}
+.rtl .doc-featuredicon.doc-verfiedicon:after{
+	left:auto;
+	right:100%;
+}
+.rtl .doc-featuredicon:after {
+	border-right: 0 !important;
+	border-left: 7px solid transparent !important;
+}
+.rtl .doc-featuredicon.doc-verfiedicon:before{
+	left:auto;
+	right:0;
+	border-right: 0 !important;
+	border-left: 4px solid transparent !important;
+}
+.rtl svg:not(:root) {direction: ltr;}
+.rtl .tg-heading-border h3{float:right;}
+.rtl .tg-post-detail .tg-post .tg-tags .tg-tag li{float:left;}
+.rtl .tg-heading-border.tg-small h2{float:right;}
+.rtl .social-share .tg-socialiconstwo li {float:right;}
+.rtl .social-share .tg-socialiconstwo li:first-child {padding-right:0;}
+.rtl .social-share li a i{
+	float:right;
+	margin: 0 0 0 5px;
+}
+.rtl .doc-matadata li a i{
+	float:right;
+	margin: 0 0 0 4px;
+}
+.rtl .tg-mapmarker figure{
+	left: auto;
+	right: -30px;
+}
+.rtl .tg-userdetail .directory-detail .tg-mapmarkercontent {padding: 0 20px 0 0;}
+.rtl .tg-likestars li{
+	float:right;
+	line-height:15px;
+	padding:0 10px !important;
+}
+.rtl .tg-likestars li:first-child{padding-right:0 !important;}
+.rtl .tg-likestars li:last-child{direction: ltr;}
+.rtl .tg-likestars li:after {
+	left: auto;
+	right: -2px;
+}
+.rtl .tg-averagerating {float: right;}
+.rtl .tg-userskill {padding: 0 30px 0 0;}
+.rtl .tg-reviewimg {
+	float: right;
+	margin: 0 0 0 30px;
+}
+.rtl .tg-reviewhead .tg-reviewheadleft {float: right;}
+.rtl .tg-reviewheadright {float: left;}
+.rtl .social-share li a span{float: right;}
+.rtl .tg-socialicon-v2{text-align:right;}
+.rtl .tg-userheading h2{float:right;}
+.rtl .tg-userexperience ul {padding: 0 35px 0 0;}
+.tg-userexperience ul li .tg-dotstyletitle h3{padding: 0 10px 0 0;}
+.rtl .tg-userexperience ul li .tg-dotstyletitle h3:after {
+	left: auto;
+	right:0;
+}
+.rtl .feature-rating.user-star-rating .tg-stars.star-rating{
+	width: 91px;
+	height: 16px;
+}
+.rtl .tg-userschedule ul li span{float:right;}
+.rtl .tg-userschedule ul li em {float: left !important;}
+.tg-userschedule ul li a:hover span,
+.tg-userschedule ul li.current a span {padding: 0 9px 0 0;}
+.rtl .tg-userschedule ul li span:after {
+	left: auto;
+	right: 0;
+	content: '\f0d9';
+}
+.rtl .tg-userdetail > div:first-child{float:right;}
+.rtl .doc-homecatagoryslider.owl-carousel .owl-nav div.owl-next {
+	right: auto;
+	left: 10%;
+}
+.rtl .doc-homecatagoryslider.owl-carousel .owl-nav div.owl-prev {
+	left: auto;
+	right: 10%;
+}
+.rtl .doc-testimonialsslider.owl-carousel .owl-nav div.owl-next i:before,
+.rtl .doc-homecatagoryslider.owl-carousel .owl-nav div.owl-next i:before{content: "\f104";}
+.rtl .doc-testimonialsslider.owl-carousel .owl-nav div.owl-prev i:before,
+.rtl .doc-homecatagoryslider.owl-carousel .owl-nav div.owl-prev i:before{content: "\f105";}
+.rtl .doc-testimonialsslider.owl-carousel .owl-nav div.owl-prev,
+.rtl .doc-testimonialsslider.owl-carousel .owl-nav div.owl-next{
+	top:20px;
+	margin:0;
+	color: #999;
+	border: 1px solid #999;
+}
+.rtl .doc-testimonialsslider.owl-carousel .owl-nav div.owl-prev{
+	right:auto;
+	left:60px;
+}
+.rtl .doc-testimonialsslider.owl-carousel .owl-nav div.owl-next{
+	right:auto;
+	left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1199px){
+	.rtl .doc-sortby .doc-select {width: 195px; margin-bottom: 10px;}
+}
+@media (max-width: 991px){
+	.rtl .doc-sortby .doc-select {width: 140px;}
+}
+@media (max-width: 767px){
+	.rtl .doc-admin {padding: 0;}
+	.rtl .doc-sortby .doc-select {width: 200px; margin-bottom: 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
