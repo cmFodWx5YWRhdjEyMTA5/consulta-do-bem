@@ -1,0 +1,1371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DocDirect Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-27 09:48+0000\n"
+"PO-Revision-Date: 2018-04-27 09:48+0000\n"
+"Last-Translator: admin <etwordpress01@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: hooks/hooks.php:425
+msgid "  Login"
+msgstr "Вход"
+
+#: shortcodes/class-registration.php:163 shortcodes/class-registration.php:165
+#: shortcodes/class-registration.php:363 shortcodes/class-registration.php:365
+msgid " I agree with the terms and conditions"
+msgstr "Я согласен с условиями"
+
+#: core/settings/settings.php:142
+msgid ""
+"*Please note that this is NOT the recommended settings for existing users of "
+"our theme using the versions 4.5 or earlier. If you want to make sure that "
+"your old settings are not affected, please keep using the default package "
+"settings and don't move to this one."
+msgstr ""
+"* Обратите внимание, что это НЕ рекомендуемые настройки для существующих "
+"пользователей нашей темы с использованием версий 4.5 или более ранних версий."
+" Если вы хотите, чтобы ваши старые настройки не были затронуты, продолжайте "
+"использовать настройки пакета по умолчанию и не переходите к этому."
+
+#: core/settings/settings.php:130
+msgid ""
+"*Please note that this is the recommended settings for existing users of our "
+"theme using the versions 4.5 or earlier. If you want to make sure that your "
+"settings are not affected, please keep using this default package setting."
+msgstr ""
+"*Обратите внимание, что это рекомендуемые настройки для существующих "
+"пользователей нашей темы, используя версии 4.5 или более ранней. Если вы "
+"хотите убедиться, что ваши настройки не влияют, пожалуйста, продолжайте "
+"использовать этот параметр пакета по умолчанию."
+
+#: hooks/hooks.php:417
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Регистрация нового пользователя"
+
+#: hooks/hooks.php:446
+#, php-format
+msgid "[%s] User Deleted"
+msgstr "Пользователь [%с] удален"
+
+#: hooks/hooks.php:427
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Ваше имя пользователя и пароль"
+
+#: core/post-types/appointments.php:35
+msgid "Add Appointment"
+msgstr "Добавить запись на консультацию"
+
+#: core/post-types/claims.php:36
+msgid "Add Claim/Report"
+msgstr "Добавить жалобу/рапорт"
+
+#: core/post-types/directory_types.php:50
+msgid "Add Directory Type"
+msgstr "Добавить тип каталога"
+
+#: core/post-types/invoices.php:37
+msgid "Add Invoice"
+msgstr "Добавить счет"
+
+#: core/post-types/appointments.php:36
+msgid "Add New Appointment"
+msgstr "Добавить новую Запись"
+
+#: core/post-types/claims.php:37
+msgid "Add New Claim/Report"
+msgstr "Добавить новую жалобу/рапорт"
+
+#: core/post-types/directory_types.php:51
+msgid "Add New Directory Type"
+msgstr "Добавить новый тип каталога"
+
+#: core/post-types/directory_types.php:139
+msgid "Add New Insurance"
+msgstr "Добавить новую Страховку"
+
+#: core/post-types/invoices.php:38
+msgid "Add New Invoice"
+msgstr "Добавить новый счет"
+
+#: core/post-types/directory_types.php:90
+msgid "Add New Location"
+msgstr "Добавить новыйадрес"
+
+#: core/post-types/orders.php:38
+msgid "Add New Order"
+msgstr "Добавить заказ"
+
+#: core/post-types/directory_packages.php:36
+msgid "Add New Package"
+msgstr "Добавить новый Тариф"
+
+#: core/post-types/reviews.php:37
+msgid "Add New Review"
+msgstr "Добавить новый отзыв"
+
+#: core/post-types/directory_types.php:114
+msgid "Add New Speciality"
+msgstr "Добавить новую Специальность"
+
+#: core/post-types/directory_types.php:163
+msgid "Add New Sub Category"
+msgstr ""
+
+#: core/post-types/orders.php:37
+msgid "Add Order"
+msgstr "Добавить заказ"
+
+#: core/post-types/directory_packages.php:35
+msgid "Add Package"
+msgstr "Добавить пакет"
+
+#: core/post-types/reviews.php:36
+msgid "Add Review"
+msgstr "Добавить коментарий"
+
+#: core/post-types/directory_types.php:134
+msgid "All Insurance"
+msgstr "Все Страхования"
+
+#: core/post-types/directory_types.php:85
+msgid "All Location"
+msgstr "Город (регион)"
+
+#: core/settings/settings.php:357
+msgid "All Rights Reserved"
+msgstr "Все права защищены"
+
+#: core/post-types/directory_types.php:109
+msgid "All Speciality"
+msgstr "Все Специальности"
+
+#: core/post-types/directory_types.php:158
+msgid "All Sub Category"
+msgstr ""
+
+#: hooks/hooks.php:442
+#, php-format
+msgid "An existing user has deleted your account due to following reason: %s"
+msgstr ""
+"Существующий пользователь удалил вашу учетную запись по следующей причине: %s"
+
+#: core/post-types/appointments.php:34
+msgid "Appointment"
+msgstr "Записаться"
+
+#: core/post-types/appointments.php:237
+msgid "Appointment Category"
+msgstr "Категория консультации"
+
+#: core/post-types/appointments.php:232
+msgid "Appointment Date"
+msgstr "Дата визита"
+
+#: core/post-types/appointments.php:141
+msgid "Appointment Detail"
+msgstr "Подробнее о записи к специалисту"
+
+#: core/post-types/appointments.php:248
+msgid "Appointment Fee"
+msgstr "Стоимость консультации"
+
+#: core/post-types/appointments.php:76
+msgid "Appointment From"
+msgstr "Запись на консультацию из"
+
+#: core/post-types/appointments.php:129
+msgid "Appointment Info"
+msgstr "Информация о записи на консультацию"
+
+#: core/post-types/appointments.php:243
+msgid "Appointment Service"
+msgstr "Услуги консультации"
+
+#: core/post-types/appointments.php:77
+msgid "Appointment To"
+msgstr "Запись на консультацию в"
+
+#: core/post-types/appointments.php:32 core/post-types/appointments.php:33
+msgid "Appointments"
+msgstr "Назначения"
+
+#: core/settings/settings.php:150
+msgid "Appointments included"
+msgstr ""
+
+#: payments/process.php:122 payments/process.php:225
+msgid "Approved"
+msgstr "Утвержденный"
+
+#: core/settings/settings.php:276
+msgid "Articles page slug"
+msgstr ""
+
+#: payments/process.php:226
+msgid "Authorize.net"
+msgstr "Authorize.net"
+
+#: core/post-types/appointments.php:316
+msgid "Booking Code"
+msgstr "Код бронирования"
+
+#: core/post-types/appointments.php:269
+msgid "Booking Status"
+msgstr "Статус бронирования"
+
+#: core/settings/settings.php:203
+msgid "Both providers and visitors ( Free )"
+msgstr ""
+
+#: core/post-types/claims.php:35
+msgid "Claim/Report"
+msgstr "Жалоба/Рапорт"
+
+#: core/post-types/claims.php:79
+msgid "Claim/Report Detail"
+msgstr "Подробности жалобы/рапорта"
+
+#: core/post-types/claims.php:33 core/post-types/claims.php:34
+msgid "Claim/Reports"
+msgstr "Жалобы/Рапорты"
+
+#: core/post-types/appointments.php:258 core/post-types/appointments.php:264
+#: core/post-types/claims.php:121 core/post-types/claims.php:127
+#: core/post-types/invoices.php:243 core/post-types/orders.php:235
+#: core/post-types/reviews.php:119 core/post-types/reviews.php:125
+msgid "Click for user details"
+msgstr "Сведения о пользователе"
+
+#: hooks/hooks.php:425
+msgid "Click to login"
+msgstr "Нажмите, чтобы войти"
+
+#: shortcodes/class-registration.php:154 shortcodes/class-registration.php:355
+msgid "Confirm Password"
+msgstr "Подтвердите Пароль"
+
+#: core/post-types/appointments.php:78 core/post-types/appointments.php:252
+msgid "Contact Number"
+msgstr "Контактный номер"
+
+#: shortcodes/class-registration.php:179 shortcodes/class-registration.php:379
+msgid "Create an Account"
+msgstr "Создать аккаунт"
+
+#: core/settings/settings.php:140
+msgid "Custom Packages"
+msgstr "Пользовательские пакеты"
+
+#: core/settings/settings.php:189
+msgid "Custom Payment Gateways"
+msgstr ""
+
+#: core/settings/settings.php:128
+msgid "Default Packages"
+msgstr "Пакеты по умолчанию"
+
+#: core/post-types/directory_types.php:49
+msgid "Directory Type"
+msgstr "Тип каталога"
+
+#: core/settings/settings.php:220
+msgid "Directory type page slug"
+msgstr ""
+
+#: core/post-types/directory_types.php:47
+#: core/post-types/directory_types.php:48
+msgid "Directory Types"
+msgstr "Типы каталога"
+
+#: core/settings/settings.php:175
+msgid "Disable Sub Categories"
+msgstr ""
+
+#: includes/class-docdirect-core.php:77
+msgid "DocDirect"
+msgstr "Поиск-адвоката"
+
+#. Name of the plugin
+msgid "DocDirect Core"
+msgstr "Ядро DocDirect"
+
+#: core/settings/settings.php:87
+msgid ""
+"DocDirect is a purpose built Directory WordPress theme for health care and "
+"other related professions. It is designed in a way that it could be used as "
+"a engineers directory, lawyer directory, handyman directory, business "
+"services directory, veterinary directory, service provider directory, "
+"business and service finder directory, business listing or as a directory "
+"for other professionals as it has a lot of features a directory website may "
+"need (and many more!).  "
+msgstr ""
+"Поиск-адвоката.рф это специально созданный каталог для юристов, адвокатов, "
+"экспертов и других смежных профессий. Он разработан таким образом, чтобы "
+"стать идеальным инструментом в качестве поиска практикующих специалистов в "
+"области юриспруденции, адвокатуры, экспертных услуг или в качестве каталога "
+"для других специалистов, так как он имеет много передовых функций каталога, "
+"которые могут понадобится."
+
+#: core/post-types/directory_packages.php:77
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: hooks/hooks.php:415 hooks/hooks.php:444
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: core/post-types/appointments.php:37 core/post-types/claims.php:38
+#: core/post-types/directory_packages.php:37
+#: core/post-types/directory_types.php:52 core/post-types/invoices.php:39
+#: core/post-types/orders.php:39 core/post-types/reviews.php:38
+msgid "Edit"
+msgstr "Редактировать"
+
+#: core/post-types/appointments.php:38
+msgid "Edit Appointment"
+msgstr "Редактировать встречу"
+
+#: core/post-types/claims.php:39
+msgid "Edit Claim/Report"
+msgstr "Редактировать жалобу/рапорт"
+
+#: core/post-types/directory_types.php:53
+msgid "Edit Directory Type"
+msgstr "Изменить тип каталога"
+
+#: core/post-types/directory_types.php:137
+msgid "Edit Insurance"
+msgstr "Изменить Страхование"
+
+#: core/post-types/invoices.php:40
+msgid "Edit Invoice"
+msgstr "Править счет"
+
+#: core/post-types/directory_types.php:88
+msgid "Edit Location"
+msgstr "Редактировать адрес"
+
+#: core/post-types/orders.php:40
+msgid "Edit Order"
+msgstr "Редактировать заказ"
+
+#: core/post-types/directory_packages.php:38
+msgid "Edit Package"
+msgstr "Изменить Тариф"
+
+#: core/post-types/reviews.php:39
+msgid "Edit Review"
+msgstr "Изменить отзыв"
+
+#: core/post-types/directory_types.php:112
+msgid "Edit Speciality"
+msgstr "Редактировать Специальности"
+
+#: core/post-types/directory_types.php:161
+msgid "Edit Sub Category"
+msgstr ""
+
+#: shortcodes/class-registration.php:139 shortcodes/class-registration.php:340
+msgid "Email"
+msgstr "E-mail"
+
+#: hooks/hooks.php:505
+msgid "Email address is not valid."
+msgstr "Недопустимый адрес электронной почты."
+
+#: hooks/hooks.php:236
+msgid "Email should not be empty."
+msgstr "Электронная почта не должна быть пустой."
+
+#: core/settings/settings.php:176
+msgid "Enable Sub Categories"
+msgstr ""
+
+#: core/post-types/orders.php:229
+msgid "Expiry Date"
+msgstr "Истечение срока"
+
+#: core/settings/settings.php:153
+msgid "Favorite Listings"
+msgstr ""
+
+#: core/settings/settings.php:149
+msgid "Featured listing days"
+msgstr ""
+
+#: core/settings/settings.php:133 core/settings/settings.php:145
+msgid "Features:"
+msgstr "Особенности:"
+
+#: shortcodes/class-registration.php:142 shortcodes/class-registration.php:343
+msgid "First Name"
+msgstr "Имя"
+
+#: shortcodes/class-registration.php:72 shortcodes/class-registration.php:270
+msgid "Forgot Password"
+msgstr "Забыли пароль"
+
+#: core/settings/settings.php:166
+msgid "General Options"
+msgstr ""
+
+#: shortcodes/class-registration.php:225
+msgid "Hello"
+msgstr "Здравствуйте"
+
+#: core/settings/settings.php:325
+msgid "How to make login/registration page"
+msgstr "Как сделать страницу Входа/Регистрации"
+
+#: core/settings/settings.php:324
+msgid "How to translate theme"
+msgstr "Как перевести тему"
+
+#: core/settings/settings.php:326
+msgid "How to Update Theme, When New Update release"
+msgstr "Как обновить тему, когда выпущена новая версия обновления"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/themographics"
+msgstr "http://themeforest.net/user/themographics"
+
+#. URI of the plugin
+msgid "http://themographics.com"
+msgstr "http://themographics.com"
+
+#: core/settings/settings.php:143
+msgid ""
+"If you are not using the old packages and you want to reset the entire "
+"packages and user settings for different features controlled through custom "
+"packages then you can move to this custom packages settings but ensure that "
+"you have taken a full back up in case you were not clear what the effects "
+"would be when moving to the new package system available in versions after 4."
+"5 (4.5 did not include the new package system)."
+msgstr ""
+"Если вы не используете старые пакеты, и вы хотите сбросить все пакеты и "
+"пользовательские настройки для различных функций, управляемых с помощью "
+"пользовательских пакетов, тогда вы можете перейти к этим настраиваемым "
+"настройкам пакетов, но убедитесь, что вы взяли полную резервную копию на "
+"случай, если вы не ясно, какие будут эффекты при переходе на новую систему "
+"пакетов, доступную в версиях после 4.5 (4.5 не включала новую систему "
+"пакетов)."
+
+#: core/settings/settings.php:131
+msgid ""
+"If you are not using the packages and you want to reset the entire packages "
+"and user settings for different features controlled through custom packages "
+"then you can move to the custom packages settings but ensure that you have "
+"taken a full back up in case you were not clear what the effects would be "
+"when moving to the new package system available in versions after 4.5 (4.5 "
+"did not include the new package system)"
+msgstr ""
+"Если Вы не используете пакеты, и вы хотите сбросить все пакеты и "
+"пользовательские настройки для различных функций, контролируемых через "
+"пользовательские пакеты, то вы можете перейти к настройкам пользовательских "
+"пакетов, но убедитесь, что вы взяли полную резервную копию в случае, если Вы "
+"не были ясно, какие эффекты будут при переходе на новую систему пакетов, "
+"доступных в версиях после 4.5 (4.5 не включал новую систему пакетов)"
+
+#: core/settings/settings.php:195
+msgid ""
+"If you want to use WooCommerce payment gateway then please select from "
+"options and update. WooCommerce plugin should be installed. Default will be "
+"custom settings"
+msgstr ""
+
+#: hooks/hooks.php:16 hooks/hooks.php:17
+msgid "Import User"
+msgstr "Импорт пользователя"
+
+#: core/settings/settings.php:130 core/settings/settings.php:142
+msgid "Important:"
+msgstr "Важный:"
+
+#: core/settings/settings.php:211
+msgid ""
+"In paid settings if provider didn't buy any package then he/she will not "
+"able to post replies and also unable to receive  questions on their profiles"
+msgstr ""
+
+#: core/settings/settings.php:147
+msgid ""
+"In this new packages settings, you can assign different features (listed "
+"below) to different packages."
+msgstr ""
+"В этих новых настройках пакетов вы можете назначить различные функции "
+"(перечисленные ниже) различным пакетам."
+
+#: core/settings/settings.php:210
+msgid ""
+"Include Question and Answers feature in packages ( When settings is "
+"\"Providers only ( Paid )\" ) settings"
+msgstr ""
+
+#: core/post-types/directory_types.php:141 core/settings/settings.php:152
+msgid "Insurance"
+msgstr "Страхование"
+
+#: core/post-types/directory_types.php:196
+#: core/post-types/directory_types.php:260
+msgid "Insurance logo"
+msgstr "Логотип страхования"
+
+#: core/settings/settings.php:258
+msgid "Insurance page slug"
+msgstr ""
+
+#: core/post-types/invoices.php:36
+msgid "Invoice"
+msgstr "Счет"
+
+#: core/post-types/invoices.php:146
+msgid "INVOICE DETAIL"
+msgstr "ДЕТАЛИ СЧЕТА"
+
+#: core/post-types/invoices.php:266
+msgid "Invoice ID"
+msgstr "ID Счёта"
+
+#: core/post-types/invoices.php:135
+msgid "INVOICE INFO"
+msgstr "ИНФОРМАЦИЯ О СЧЕТЕ"
+
+#: core/post-types/invoices.php:34 core/post-types/invoices.php:35
+msgid "Invoices"
+msgstr "Счета"
+
+#: core/settings/settings.php:221 core/settings/settings.php:231
+#: core/settings/settings.php:241 core/settings/settings.php:250
+#: core/settings/settings.php:259 core/settings/settings.php:268
+#: core/settings/settings.php:277
+msgid ""
+"It will be used at Post / Taxonomy detail page in URL as slug. Please use "
+"words without spaces."
+msgstr ""
+
+#: shortcodes/class-registration.php:145 shortcodes/class-registration.php:346
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: core/post-types/directory_types.php:92
+msgid "Locations (Cities)"
+msgstr "Локация (Города)"
+
+#: core/settings/settings.php:240
+msgid "Locations(cities) page slug"
+msgstr ""
+
+#: shortcodes/class-registration.php:85 shortcodes/class-registration.php:283
+msgid "LOGIN now"
+msgstr "Войти сейчас"
+
+#: core/settings/settings.php:83
+msgid "logo"
+msgstr "лого"
+
+#: core/settings/settings.php:136 core/settings/settings.php:157
+msgid "Make it default"
+msgstr "Сделать это по умолчанию"
+
+#: hooks/hooks.php:480
+msgid "Message Fail."
+msgstr "Сообщение не отправлено."
+
+#: hooks/hooks.php:475
+msgid "Message Sent."
+msgstr "Сообщение отправлено."
+
+#: core/post-types/appointments.php:287
+msgid "Metting Time"
+msgstr "Время косультации"
+
+#: core/settings/settings.php:291
+msgid "Minimum System Requirements"
+msgstr "Минимальные системные требования"
+
+#: core/post-types/appointments.php:39
+msgid "New Appointment"
+msgstr "Новая встреча"
+
+#: core/post-types/claims.php:40
+msgid "New Claim/Report"
+msgstr "Новые жалобы/рапорты"
+
+#: core/post-types/directory_types.php:54
+msgid "New Directory Type"
+msgstr "Новый тип каталога"
+
+#: core/post-types/directory_types.php:140
+msgid "New Insurance Name"
+msgstr "Название нового страхования"
+
+#: core/post-types/invoices.php:41
+msgid "New Invoice"
+msgstr "Новый счет"
+
+#: core/post-types/directory_types.php:91
+msgid "New Location Name"
+msgstr "Название нового адреса"
+
+#: core/post-types/orders.php:41
+msgid "New Order"
+msgstr "Новый заказ"
+
+#: core/post-types/directory_packages.php:39
+msgid "New Package"
+msgstr "Новый Тариф"
+
+#: core/post-types/reviews.php:40
+msgid "New Review"
+msgstr "Новый отзыв"
+
+#: core/post-types/directory_types.php:115
+msgid "New Speciality Name"
+msgstr "Название новой Специальности"
+
+#: core/post-types/directory_types.php:164
+msgid "New Sub Category Name"
+msgstr ""
+
+#: hooks/hooks.php:413
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr "Регистрация нового пользователя на сайте %s:"
+
+#: core/post-types/appointments.php:204 core/post-types/appointments.php:205
+#: core/post-types/appointments.php:206 core/post-types/appointments.php:207
+#: core/post-types/appointments.php:208 core/post-types/appointments.php:209
+#: core/post-types/appointments.php:210 core/post-types/appointments.php:211
+#: core/post-types/appointments.php:212 core/post-types/appointments.php:213
+#: core/post-types/appointments.php:214 core/post-types/appointments.php:215
+#: core/post-types/appointments.php:216 core/post-types/appointments.php:217
+#: core/post-types/appointments.php:218 core/post-types/appointments.php:222
+#: core/post-types/appointments.php:308 core/post-types/appointments.php:310
+#: core/post-types/claims.php:112 core/post-types/claims.php:113
+#: core/post-types/invoices.php:186 core/post-types/invoices.php:187
+#: core/post-types/invoices.php:188 core/post-types/invoices.php:189
+#: core/post-types/invoices.php:190 core/post-types/invoices.php:191
+#: core/post-types/invoices.php:192 core/post-types/invoices.php:193
+#: core/post-types/invoices.php:194 core/post-types/invoices.php:195
+#: core/post-types/invoices.php:196 core/post-types/invoices.php:197
+#: core/post-types/invoices.php:198 core/post-types/invoices.php:199
+#: core/post-types/invoices.php:200 core/post-types/invoices.php:202
+#: core/post-types/invoices.php:260 core/post-types/orders.php:171
+#: core/post-types/orders.php:172 core/post-types/orders.php:173
+#: core/post-types/orders.php:174 core/post-types/orders.php:176
+#: core/post-types/orders.php:178 core/post-types/orders.php:179
+#: core/post-types/orders.php:186 core/post-types/orders.php:187
+#: core/post-types/orders.php:188 core/post-types/orders.php:189
+#: core/post-types/orders.php:190 core/post-types/orders.php:191
+#: core/post-types/orders.php:192 core/post-types/orders.php:193
+#: core/post-types/orders.php:194 core/post-types/orders.php:195
+msgid "NILL"
+msgstr ""
+
+#: core/post-types/appointments.php:43
+msgid "No Appointment found"
+msgstr "Не найдено консультаций"
+
+#: core/post-types/appointments.php:44
+msgid "No Appointment found in trash"
+msgstr "Не найдено в корзине записи на консультацию"
+
+#: core/post-types/claims.php:44
+msgid "No Claim/Report found"
+msgstr "Не найдено жалоб/рапорта"
+
+#: core/post-types/claims.php:45
+msgid "No Claim/Report found in trash"
+msgstr "Не найдено жалобы/рапорта в корзине"
+
+#: core/post-types/directory_types.php:58
+msgid "No Directory Type found"
+msgstr "Тип каталога не найден"
+
+#: core/post-types/directory_types.php:59
+msgid "No Directory Type found in trash"
+msgstr "В корзине не найден тип каталога"
+
+#: core/post-types/invoices.php:45
+msgid "No Invoice found"
+msgstr "Не найдено"
+
+#: core/post-types/invoices.php:46
+msgid "No Invoice found in trash"
+msgstr "Счетов не найдено в корзине"
+
+#: hooks/hooks.php:464
+msgid "No kiddies please!"
+msgstr "Без шуток, пожалуйста!"
+
+#: libraries/mailchimp/class-mailchimp.php:57
+msgid "No list selected yet! please contact administrator"
+msgstr "Пока нет списка! свяжитесь с администратором"
+
+#: core/post-types/orders.php:45
+msgid "No Order found"
+msgstr "Заказ не найден"
+
+#: core/post-types/orders.php:46
+msgid "No Order found in trash"
+msgstr "В корзине не найдены заказы"
+
+#: core/post-types/directory_packages.php:43
+msgid "No Package found"
+msgstr "Пакет не найден"
+
+#: core/post-types/directory_packages.php:44
+msgid "No Package found in trash"
+msgstr "Пакет не найден в корзине"
+
+#: core/post-types/reviews.php:44
+msgid "No Review found"
+msgstr "Отзывы не найдены"
+
+#: core/post-types/reviews.php:45
+msgid "No Review found in trash"
+msgstr "Комментарий не найден в корзине"
+
+#: shortcodes/class-registration.php:225
+msgid "not"
+msgstr "не"
+
+#: core/post-types/appointments.php:292
+msgid "Note"
+msgstr "Заметка"
+
+#: core/settings/settings.php:155
+msgid "Opening Hours/Schedules"
+msgstr ""
+
+#: core/post-types/orders.php:36
+msgid "Order"
+msgstr "Заказ"
+
+#: core/post-types/orders.php:201
+msgid "Order ID"
+msgstr "Номера заказа"
+
+#: core/post-types/orders.php:139
+msgid "ORDER INFO"
+msgstr "ИНФОРМАЦИЯ О ЗАКАЗЕ"
+
+#: core/post-types/orders.php:34 core/post-types/orders.php:35
+msgid "Orders"
+msgstr "Заказы"
+
+#: core/settings/settings.php:335
+msgid "Our Other Products"
+msgstr "Другие наши продукты"
+
+#: core/post-types/directory_packages.php:34 core/post-types/invoices.php:81
+#: core/post-types/invoices.php:213 core/post-types/orders.php:77
+#: core/post-types/orders.php:217
+msgid "Package"
+msgstr "Тарифы"
+
+#: core/post-types/orders.php:221
+msgid "Package Price"
+msgstr "Стоимость подписки"
+
+#: core/post-types/directory_packages.php:32
+#: core/post-types/directory_packages.php:33
+msgid "Packages"
+msgstr "Пакеты"
+
+#: core/settings/settings.php:122
+msgid "Packages Options"
+msgstr ""
+
+#: core/settings/settings.php:194
+msgid "Packages payment type"
+msgstr ""
+
+#: core/post-types/appointments.php:45
+msgid "Parent Appointment"
+msgstr "Основной прием"
+
+#: core/post-types/claims.php:46
+msgid "Parent Claim/Report"
+msgstr "Основная жалоба/рапорт"
+
+#: core/post-types/directory_types.php:60
+msgid "Parent Directory Type"
+msgstr "Тип основного каталога"
+
+#: core/post-types/directory_types.php:135
+msgid "Parent Insurance"
+msgstr "Основное страхование"
+
+#: core/post-types/directory_types.php:136
+msgid "Parent Insurance:"
+msgstr "Основное страхование:"
+
+#: core/post-types/invoices.php:47
+msgid "Parent Invoice"
+msgstr "Основной счет"
+
+#: core/post-types/directory_types.php:86
+msgid "Parent Location"
+msgstr "Основной адрес"
+
+#: core/post-types/directory_types.php:87
+msgid "Parent Location:"
+msgstr "Основной адрес:"
+
+#: core/post-types/orders.php:47
+msgid "Parent Order"
+msgstr "Основной заказ"
+
+#: core/post-types/directory_packages.php:45
+msgid "Parent Package"
+msgstr "Главный Пакет"
+
+#: core/post-types/reviews.php:46
+msgid "Parent Review"
+msgstr "Вышестоящий отзыв"
+
+#: core/post-types/directory_types.php:110
+msgid "Parent Speciality"
+msgstr "Основная специальность"
+
+#: core/post-types/directory_types.php:111
+msgid "Parent Speciality:"
+msgstr "Основная специальность:"
+
+#: core/post-types/directory_types.php:159
+msgid "Parent Sub Category"
+msgstr ""
+
+#: core/post-types/directory_types.php:160
+msgid "Parent Sub Category:"
+msgstr ""
+
+#: shortcodes/class-registration.php:64 shortcodes/class-registration.php:151
+#: shortcodes/class-registration.php:262 shortcodes/class-registration.php:352
+msgid "Password"
+msgstr "Пароль"
+
+#: hooks/hooks.php:258
+msgid "Password is not matched."
+msgstr "Пароль не совпадает."
+
+#: hooks/hooks.php:251
+msgid "Password is required."
+msgstr "Необходим пароль."
+
+#: hooks/hooks.php:127
+msgid "Password should not be empty."
+msgstr "Пароль не должен быть пустым."
+
+#: core/post-types/invoices.php:237
+msgid "Payer Address"
+msgstr "Адрес Плательщика"
+
+#: core/post-types/invoices.php:233
+msgid "Payer Name"
+msgstr "Имя Плательщика"
+
+#: core/post-types/invoices.php:217
+msgid "Payment Amount"
+msgstr "Сумма платежа"
+
+#: core/post-types/invoices.php:229
+msgid "Payment Date"
+msgstr "Дата платежа"
+
+#: core/post-types/appointments.php:281 core/post-types/invoices.php:82
+#: core/post-types/invoices.php:225 core/post-types/orders.php:78
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+#: core/post-types/orders.php:213
+msgid "Payment Option"
+msgstr "Варианты оплаты"
+
+#: core/post-types/appointments.php:275 core/post-types/invoices.php:221
+#: core/post-types/orders.php:209
+msgid "Payment Status"
+msgstr "Статус оплаты"
+
+#: payments/process.php:123
+msgid "Paypal"
+msgstr "Paypal"
+
+#: shortcodes/class-registration.php:148 shortcodes/class-registration.php:349
+msgid "Phone Number"
+msgstr "Телефон"
+
+#: hooks/hooks.php:266
+msgid "Please Check Terms and Conditions"
+msgstr "Пожалуйста, ознакомьтесь с условиями"
+
+#: hooks/hooks.php:244
+msgid "Please enter a valid email."
+msgstr "Пожалуйста, введите корректную электронную почту."
+
+#: hooks/hooks.php:106 hooks/hooks.php:190
+msgid "Please enter reCaptcha!"
+msgstr "Введите пожалуйста reCaptcha!"
+
+#: hooks/hooks.php:498
+msgid "Please fill all fields."
+msgstr "Пожалуйста, заполните все поля."
+
+#: core/settings/settings.php:212
+msgid ""
+"Please note if settings were saved as Paid then there will be settings in "
+"Packages to enable or disable question and answers, and users have to pay to "
+"post replies or get questions on their profile detail page."
+msgstr ""
+
+#: hooks/hooks.php:220
+msgid "Please select Directory Type."
+msgstr "Выберите Тип каталога."
+
+#: hooks/hooks.php:205
+msgid "Please select user type."
+msgstr "Выберите Тип пользователя."
+
+#: core/post-types/directory_packages.php:76 core/post-types/invoices.php:84
+#: core/post-types/orders.php:80
+msgid "Price"
+msgstr "Цена"
+
+#: shortcodes/class-registration.php:104 shortcodes/class-registration.php:305
+msgid "Professional"
+msgstr "Специалист"
+
+#: core/settings/settings.php:151
+msgid "Profile Banner Included"
+msgstr ""
+
+#: core/settings/settings.php:204
+msgid "Providers only ( Paid )"
+msgstr ""
+
+#: core/post-types/orders.php:225
+msgid "Purchase Date"
+msgstr "Дата покупки"
+
+#: core/settings/settings.php:267
+msgid "Questions page slug"
+msgstr ""
+
+#: core/settings/settings.php:321
+msgid "Quick Links"
+msgstr "Быстрые ссылки"
+
+#: core/post-types/reviews.php:113 core/post-types/reviews.php:139
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: hooks/hooks.php:163 shortcodes/class-registration.php:185
+#: shortcodes/class-registration.php:385
+msgid "Registration is disabled by administrator"
+msgstr "Регистрация отключена администратором"
+
+#: shortcodes/class-registration.php:69 shortcodes/class-registration.php:267
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: core/post-types/claims.php:131
+msgid "Report/Claim Detail"
+msgstr "Подробности жалобы/рапорта"
+
+#: core/post-types/claims.php:145
+msgid "Reported against"
+msgstr "Сообщено против"
+
+#: core/post-types/claims.php:120 core/post-types/claims.php:144
+msgid "Reported By"
+msgstr "Сообщил"
+
+#: core/post-types/claims.php:126
+msgid "Reported To"
+msgstr "Сообщено в "
+
+#: core/settings/settings.php:209
+msgid "Restrict question and answers"
+msgstr ""
+
+#: core/post-types/reviews.php:35
+msgid "Review"
+msgstr "Отзыв"
+
+#: core/post-types/reviews.php:118
+msgid "Review By"
+msgstr "Отзыв"
+
+#: core/post-types/reviews.php:78
+msgid "REVIEW INFO"
+msgstr "ИНФОРМАЦИЯ ОТЗЫВА"
+
+#: core/post-types/reviews.php:109
+msgid "Review Subject"
+msgstr "Тема отзыва"
+
+#: core/post-types/reviews.php:124
+msgid "Review To"
+msgstr "Отзыв о"
+
+#: core/post-types/reviews.php:33 core/post-types/reviews.php:34
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: core/settings/settings.php:280
+msgid "Save Changes"
+msgstr ""
+
+#: core/post-types/appointments.php:42
+msgid "Search Appointment"
+msgstr "Искать запись на консультацию"
+
+#: core/post-types/claims.php:43
+msgid "Search Claim/Report"
+msgstr "Искать жалобу/рапорт"
+
+#: core/post-types/directory_types.php:57
+msgid "Search Directory Type"
+msgstr "Поиск по типу каталога"
+
+#: core/post-types/directory_types.php:133
+msgid "Search Insurance"
+msgstr "Поиск Страхования"
+
+#: core/post-types/invoices.php:44
+msgid "Search Invoice"
+msgstr "Найти"
+
+#: core/post-types/directory_types.php:84
+msgid "Search Location"
+msgstr "Поиск по адресу"
+
+#: core/post-types/orders.php:44
+msgid "Search Order"
+msgstr "Поиск заказа"
+
+#: core/post-types/directory_packages.php:42
+msgid "Search Package"
+msgstr "Найти Тариф"
+
+#: core/post-types/reviews.php:43
+msgid "Search Review"
+msgstr "Поиск обзора"
+
+#: core/post-types/directory_types.php:108
+msgid "Search Speciality"
+msgstr "Поиск по Специальности"
+
+#: core/post-types/directory_types.php:157
+msgid "Search Sub Category"
+msgstr ""
+
+#: shortcodes/class-registration.php:114 shortcodes/class-registration.php:315
+msgid "Select User Type"
+msgstr "Выберите тип пользователя"
+
+#: core/settings/settings.php:26 core/settings/settings.php:27
+#: core/settings/settings.php:76
+msgid "Settings"
+msgstr "Настройки"
+
+#: hooks/hooks.php:786
+msgid "Settings updated"
+msgstr ""
+
+#: hooks/hooks.php:768
+msgid "Settings updated."
+msgstr "Настройки обновлены."
+
+#: shortcodes/class-registration.php:35 shortcodes/class-registration.php:234
+msgid "Sign In"
+msgstr "Авторизация"
+
+#: shortcodes/class-registration.php:91 shortcodes/class-registration.php:289
+msgid "Sign In is disabled by administrator"
+msgstr "Вход отключен администратором портала"
+
+#: shortcodes/class-registration.php:234
+msgid "Sign In with your username and password"
+msgstr "Войдите под своим именем и паролем"
+
+#: shortcodes/class-registration.php:225
+msgid "Sign out"
+msgstr "Выйти"
+
+#: shortcodes/class-registration.php:36 shortcodes/class-registration.php:296
+msgid "Sign Up"
+msgstr "Регистрация"
+
+#: shortcodes/class-registration.php:296
+msgid "Sign Up as Vistor or professional."
+msgstr "Зарегистрируйтесь как посетитель или специалист."
+
+#: libraries/mailchimp/class-mailchimp.php:81
+msgid "Some error occur, Please try again later."
+msgstr "Возникла некоторая ошибка. Повторите попытку позже."
+
+#: hooks/hooks.php:98 hooks/hooks.php:182
+msgid "Some error occur, please try again later."
+msgstr "Ошибка, пожалуйста, повторите попытку позже."
+
+#: core/post-types/directory_types.php:116
+msgid "Specialities"
+msgstr "Специальности"
+
+#: core/settings/settings.php:249
+msgid "Speciality page slug"
+msgstr ""
+
+#: core/settings/settings.php:180
+msgid "Sub Categories"
+msgstr ""
+
+#: core/post-types/directory_types.php:165
+msgid "Sub Category"
+msgstr ""
+
+#: core/settings/settings.php:230
+msgid "Sub category page slug"
+msgstr ""
+
+#: libraries/mailchimp/class-mailchimp.php:76
+msgid "Subscribe Successfully"
+msgstr "Подписка успешна"
+
+#: hooks/hooks.php:134
+msgid "Successfully Logged in."
+msgstr "Успешно выполнен вход."
+
+#: core/settings/settings.php:154
+msgid "Teams Management"
+msgstr ""
+
+#: shortcodes/class-registration.php:162 shortcodes/class-registration.php:362
+msgid "Terms"
+msgstr "Условия"
+
+#: core/settings/settings.php:88
+msgid ""
+"The current template has been designed with a directory for healthcare "
+"establishments in mind. The inner pages are carefully designed to provide "
+"all the essential information any directory business would need."
+msgstr ""
+"Текущий каталог был разработан с как для частных специалистов, так и для "
+"юридических и экспертных фирм со своим штатом сотрудников. Внутренние "
+"страницы тщательно разработаны, чтобы обеспечить всей необходимой "
+"информацией любого посетителя портала."
+
+#. Author of the plugin
+#: core/settings/settings.php:357
+msgid "Themographics"
+msgstr "Themographics"
+
+#: core/post-types/directory_types.php:64
+msgid "This is where you can add new Directory Type"
+msgstr "Здесь можно добавить новый тип каталога"
+
+#: core/post-types/directory_packages.php:49
+msgid "This is where you can add new Package"
+msgstr "Здесь можно добавить новый пакет"
+
+#: core/settings/settings.php:135
+msgid ""
+"This package will allow users to use all features and only the duration to "
+"be in featured can be controlled through default packages."
+msgstr ""
+"Этот пакет позволит пользователям использовать все функции, и только "
+"длительность, которая должна быть включена, может управляться через пакеты "
+"по умолчанию."
+
+#. Description of the plugin
+msgid ""
+"This plugin is used for creating custom post types and other functionality "
+"for DocDirect Theme"
+msgstr ""
+"Этот плагин используется для создания пользовательских типов сообщений и "
+"других функций для темы Поиск-адвоката"
+
+#: core/post-types/appointments.php:228
+msgid "Tracking id"
+msgstr "Идентификатор отслеживания"
+
+#: core/post-types/invoices.php:209 core/post-types/orders.php:205
+msgid "Transaction ID"
+msgstr "ID платежа"
+
+#: core/post-types/directory_types.php:138
+msgid "Update Insurance"
+msgstr "Обновление Страхования"
+
+#: core/post-types/directory_types.php:89
+msgid "Update Location"
+msgstr "Обновить адрес"
+
+#: core/post-types/directory_types.php:113
+msgid "Update Speciality"
+msgstr "Обновление Специальности"
+
+#: core/post-types/directory_types.php:162
+msgid "Update Sub Category"
+msgstr ""
+
+#: core/post-types/directory_types.php:199
+#: core/post-types/directory_types.php:263
+msgid "Uplaod insurance logo"
+msgstr "Загрузить логотип страхования"
+
+#: core/post-types/invoices.php:83 core/post-types/invoices.php:242
+#: core/post-types/orders.php:79 core/post-types/orders.php:234
+msgid "User"
+msgstr "Пользователь"
+
+#: hooks/hooks.php:276
+msgid "User already exists. Please try another one."
+msgstr "Имя пользователя уже существует, попробуйте другое."
+
+#: hooks/hooks.php:441
+#, php-format
+msgid "User deleted %s:"
+msgstr ""
+
+#: core/post-types/appointments.php:257 core/post-types/reviews.php:137
+msgid "User From"
+msgstr "От пользователя"
+
+#: hooks/hooks.php:66
+msgid "User Imported Successfully"
+msgstr "Пользователь успешно импортирован"
+
+#: shortcodes/class-registration.php:259
+msgid "User Name"
+msgstr "Логин"
+
+#: hooks/hooks.php:124 hooks/hooks.php:228
+msgid "User name should not be empty."
+msgstr "Имя пользователя не должно быть пустым."
+
+#: core/post-types/appointments.php:263 core/post-types/reviews.php:138
+msgid "User To"
+msgstr "Пользователь"
+
+#: shortcodes/class-registration.php:136 shortcodes/class-registration.php:337
+msgid "Username"
+msgstr "Никнейм (англ.)"
+
+#: shortcodes/class-registration.php:61
+msgid "Username/Email Address"
+msgstr "Имя Пользователя/Электронная почта"
+
+#: hooks/hooks.php:414 hooks/hooks.php:443
+#, php-format
+msgid "Username: %s"
+msgstr "Логин: %s"
+
+#: shortcodes/class-registration.php:227
+msgid "View"
+msgstr "Просмотр"
+
+#: core/post-types/appointments.php:40 core/post-types/appointments.php:41
+msgid "View Appointment"
+msgstr "Просмотреть инд. встречу"
+
+#: core/post-types/claims.php:41 core/post-types/claims.php:42
+msgid "View Claim/Report"
+msgstr "Просмотреть жалобу/рапорт"
+
+#: core/settings/settings.php:347
+msgid "View Demo"
+msgstr "Демо"
+
+#: core/post-types/directory_types.php:55
+#: core/post-types/directory_types.php:56
+msgid "View Directory Type"
+msgstr "Просмотр типа каталога"
+
+#: core/post-types/invoices.php:42 core/post-types/invoices.php:43
+msgid "View Invoice"
+msgstr "Счёт:"
+
+#: core/post-types/orders.php:42 core/post-types/orders.php:43
+msgid "View Order"
+msgstr "Посмотреть заявку"
+
+#: core/post-types/directory_packages.php:40
+#: core/post-types/directory_packages.php:41
+msgid "View Package"
+msgstr "Просмотреть Тариф"
+
+#: core/post-types/reviews.php:41 core/post-types/reviews.php:42
+msgid "View Review"
+msgstr "Просмотреть отзыв"
+
+#: shortcodes/class-registration.php:108 shortcodes/class-registration.php:309
+msgid "Visitor"
+msgstr "Посетитель"
+
+#: hooks/hooks.php:422
+#, php-format
+msgid "Welcome to %s"
+msgstr "Добро пожаловать в %s"
+
+#: core/settings/settings.php:85
+msgid "Welcome To DocDirect"
+msgstr "Добро пожаловать в Поиск-адвоката"
+
+#: core/settings/settings.php:71
+msgid "What's New?"
+msgstr ""
+
+#: core/settings/settings.php:190
+msgid "WooCommerce Payment Gateways"
+msgstr ""
+
+#: hooks/hooks.php:101 hooks/hooks.php:185
+msgid "Wrong reCaptcha. Please verify first."
+msgstr ""
+"Скорее всего Вы просто не заметили просьбу пройти процедуру reCaptcha. "
+"Вернитесь на один шаг назад для исправления этого недоразумения. Спасибо за "
+"понимание!"
+
+#: hooks/hooks.php:132
+msgid "Wrong username or password."
+msgstr "Неверное имя пользователя или пароль."
+
+#: core/settings/settings.php:181
+msgid ""
+"You can enable sub categories. If this settings will be  enable then Sub "
+"categories will be shown at back-end and also in providers dashboard. Admin "
+"can add sub categories and providers can select from their dashboard. These "
+"Categories will also be shown in search filters."
+msgstr ""
+
+#: shortcodes/class-registration.php:227
+msgid "You can view your dashboard here"
+msgstr "Вы можете просмотреть Вашу панель управления здесь"
+
+#: hooks/hooks.php:388
+msgid "Your have successfully signed up."
+msgstr "Вы успешно зарегистрировались."
+
+#: hooks/hooks.php:424
+#, php-format
+msgid "Your Password: %s"
+msgstr "Ваш пароль: %s"
+
+#: hooks/hooks.php:423
+#, php-format
+msgid "Your Username: %s"
+msgstr "Ваш логин: %s"
