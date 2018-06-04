@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: DocDirect\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 09:48+0000\n"
-"PO-Revision-Date: 2018-06-04 18:01+0000\n"
+"PO-Revision-Date: 2018-06-04 19:29+0000\n"
 "Last-Translator: leonardo.falotico <leonardo.falotico@edev.com.br>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -3944,7 +3944,7 @@ msgstr ""
 #: directory/functions.php:1850
 #: framework-customizations/theme/options/directory-settings.php:513
 msgid "Geo location"
-msgstr ""
+msgstr "Localização"
 
 #: framework-customizations/theme/options/directory-settings.php:447
 msgid "Geo Location Autocomplete"
@@ -8294,7 +8294,7 @@ msgstr ""
 #: framework-customizations/extensions/shortcodes/shortcodes/dir-search-carousel-v2/views/view.php:136
 #: framework-customizations/extensions/shortcodes/shortcodes/dir-search-carousel-v2/views/view.php:216
 msgid "Specialities"
-msgstr ""
+msgstr "Especialidades"
 
 #: framework-customizations/theme/options/taxonomies/specialities.php:15
 msgid "Speciality Icon"
@@ -9159,7 +9159,7 @@ msgstr ""
 #: framework-customizations/extensions/shortcodes/shortcodes/dir-search-carosel/views/view.php:62
 #: framework-customizations/extensions/shortcodes/shortcodes/dir-search-carousel-v2/views/view.php:197
 msgid "Type Keyword..."
-msgstr ""
+msgstr "Palavra-chave..."
 
 #: framework-customizations/extensions/shortcodes/shortcodes/find-health-care/options.php:28
 msgid "Type Title"
