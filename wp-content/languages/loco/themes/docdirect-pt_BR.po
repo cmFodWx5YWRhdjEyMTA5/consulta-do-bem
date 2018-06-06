@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: DocDirect\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 09:48+0000\n"
-"PO-Revision-Date: 2018-06-04 19:29+0000\n"
+"PO-Revision-Date: 2018-06-06 17:17+0000\n"
 "Last-Translator: leonardo.falotico <leonardo.falotico@edev.com.br>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -2418,7 +2418,7 @@ msgstr ""
 
 #: directory/templates/user-profile.php:50
 msgid "Customer Reviews"
-msgstr ""
+msgstr "Avaliações de Clientes"
 
 #: inc/helpers/languages.php:51
 msgid "Czech"
@@ -2436,11 +2436,11 @@ msgstr ""
 #. Name of the template
 #: directory/class-functions.php:59
 msgid "Dashboard"
-msgstr ""
+msgstr "Painel"
 
 #: framework-customizations/theme/options/directory-settings.php:219
 msgid "Dashboard Settings"
-msgstr ""
+msgstr "Configurações do painel"
 
 #: framework-customizations/extensions/questionsanswers/class-fw-extension-questionsanswers.php:31
 #: framework-customizations/extensions/questionsanswers/class-fw-extension-questionsanswers.php:46
@@ -3975,7 +3975,7 @@ msgstr ""
 
 #: directory/class-functions.php:373
 msgid "get support"
-msgstr ""
+msgstr "obtenha suporte"
 
 #: inc/helpers/languages.php:70
 msgid "Gikuyu, Kikuyu"
@@ -3983,7 +3983,7 @@ msgstr ""
 
 #: directory/class-functions.php:64 directory/class-functions.php:157
 msgid "Go to forum profile"
-msgstr ""
+msgstr "Ir para o perfil do fórum"
 
 #: directory/class-functions.php:143
 msgid "Go to your profile"
@@ -4545,7 +4545,7 @@ msgstr ""
 
 #: directory/class-functions.php:104 directory/class-functions.php:199
 msgid "Invoices & Packages"
-msgstr ""
+msgstr "Faturas e Pacotes"
 
 #: framework-customizations/theme/options/booking-settings.php:82
 #: framework-customizations/theme/options/payments-settings.php:84
@@ -4937,7 +4937,7 @@ msgstr ""
 
 #: directory/class-functions.php:138 directory/class-functions.php:235
 msgid "Logout"
-msgstr ""
+msgstr "Sair"
 
 #: core/user-profile/user-account-settings.php:871
 #: directory/templates/account-settings/user-account-locations.php:63
@@ -5316,7 +5316,7 @@ msgstr ""
 
 #: directory/class-functions.php:62
 msgid "My Profile"
-msgstr ""
+msgstr "Meu Perfil"
 
 #: directory/class-functions.php:110 directory/class-functions.php:205
 msgid "My Schedules"
@@ -6885,11 +6885,11 @@ msgstr ""
 #: core/user-profile/user-account-settings.php:345
 #: directory/templates/user-privacy-settings.php:19
 msgid "Privacy Settings"
-msgstr ""
+msgstr "Configurações de Privacidade"
 
 #: directory/functions.php:50
 msgid "Privacy Settings Updated."
-msgstr ""
+msgstr "Configurações de Privacidade Atualizadas."
 
 #: core/user-profile/user-account-settings.php:352
 #: core/user-profile/user-account-settings.php:363
@@ -6942,11 +6942,11 @@ msgstr ""
 #: directory/templates/user-profile.php:40
 #: directory/templates/user-profile.php:159
 msgid "Profile Hits"
-msgstr ""
+msgstr "Hits do Perfil"
 
 #: directory/class-functions.php:66 directory/class-functions.php:159
 msgid "Profile Settings"
-msgstr ""
+msgstr "Configurações de Perfil"
 
 #: inc/notifications/email_notifications.php:736
 #: inc/notifications/email_notifications.php:934
@@ -7152,7 +7152,7 @@ msgstr ""
 #: directory/class-functions.php:362
 #: directory/templates/dashboard-company.php:47
 msgid "Regards,"
-msgstr ""
+msgstr "Saudações,"
 
 #: framework-customizations/theme/options/typo-settings.php:42
 msgid "Regular Font"
@@ -7548,7 +7548,7 @@ msgstr ""
 
 #: directory/class-functions.php:131 directory/class-functions.php:227
 msgid "Security Settings"
-msgstr ""
+msgstr "Configurações de Segurança"
 
 #: directory/provider-page/template-author-insurance.php:24
 msgid "See which insurance(s) covers your care."
@@ -9627,12 +9627,12 @@ msgstr ""
 
 #: inc/headers/class-headers.php:294 inc/headers/class-headers.php:357
 msgid "Welcome"
-msgstr ""
+msgstr "Bem vindo(a)"
 
 #: directory/class-functions.php:356
 #: directory/templates/dashboard-company.php:39
 msgid "welcome, "
-msgstr ""
+msgstr "Bem vindo(a),"
 
 #: inc/helpers/languages.php:190
 msgid "Welsh"

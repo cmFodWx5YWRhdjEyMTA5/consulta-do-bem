@@ -3,7 +3,7 @@ Contributors: automattic, woothemes, akeda, dwainm, royho, allendav, slash1andy,
 Tags: ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce, store, sales, sell, shop, shopping, cart, checkout, configurable, paypal
 Requires at least: 4.4
 Tested up to: 4.9.0
-Stable tag: 1.5.5
+Stable tag: 1.5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -92,6 +92,9 @@ Please use this to inform us about bugs, or make contributions via PRs.
 3. Checkout with PayPal directly from the Cart.
 
 == Changelog ==
+
+= 1.5.6 - 2018-06-06 =
+* Fix    - Virtual products cause issues with billing details validation.
 
 = 1.5.5 - 2018-05-23 =
 * Update - WC 3.4 compatibility
